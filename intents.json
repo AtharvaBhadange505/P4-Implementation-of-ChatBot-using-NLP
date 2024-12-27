@@ -1,0 +1,82 @@
+{  
+  "intents": [  
+    {  
+      "tag": "greeting",  
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "What's up?", "Good morning", "Good afternoon", "Good evening"],  
+      "responses": [  
+        "Hi there!",  
+        "Hello!",  
+        "Hey!",  
+        "I'm fine, thank you!",  
+        "Nothing much, how about you?",  
+        "Good to see you!",  
+        "How's it going?"  
+      ]  
+    },  
+    {  
+      "tag": "goodbye",  
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "See you", "Catch you later"],  
+      "responses": [  
+        "Goodbye!",  
+        "See you later!",  
+        "Take care!",  
+        "Have a great day!",  
+        "Until next time!",  
+        "Catch you on the flip side!"  
+      ]  
+    },  
+    {  
+      "tag": "thanks",  
+      "patterns": ["Thank you", "Thanks a lot", "I appreciate it", "Thanks for your help", "Thanks so much"],  
+      "responses": [  
+        "You're welcome!",  
+        "No problem!",  
+        "Glad I could help!",  
+        "Anytime!",  
+        "My pleasure!",  
+        "Don't mention it!"  
+      ]  
+    },  
+    {  
+      "tag": "age",  
+      "patterns": ["How old are you?", "What is your age?", "Can you tell me your age?", "When were you created?"],  
+      "responses": [  
+        "I'm just a chatbot, I don't have an age like humans do!",  
+        "Age is just a number, right?",  
+        "I was created recently, but I learn every day!",  
+        "I don't age like humans, I'm always the same."  
+      ]  
+    },  
+    {  
+      "tag": "bye",  
+      "patterns": ["Bye bye", "Bye for now", "Until next time", "See you later, alligator"],  
+      "responses": [  
+        "Goodbye!",  
+        "See you soon!",  
+        "Farewell!",  
+        "Until we meet again!",  
+        "See you later!"  
+      ]  
+    },  
+    {  
+      "tag": "help",  
+      "patterns": ["Can you help me?", "I need assistance", "Help me please", "Can you assist me?", "I need help"],  
+      "responses": [  
+        "Of course! What do you need help with?",  
+        "I'm here to help! What can I assist you with?",  
+        "Let me know how I can assist you!",  
+        "Sure, I’d be happy to help!"  
+      ]  
+    },  
+    {  
+      "tag": "joke",  
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "I need a laugh"],  
+      "responses": [  
+        "Why don't scientists trust atoms? Because they make up everything!",  
+        "What do you call fake spaghetti? An impasta!",  
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",  
+        "I'm on a seafood diet. I see food and I eat it!"  
+      ]  
+    }  
+  ]  
+}
